@@ -5,6 +5,7 @@
 
 body {
     background: url(assets/background-mobile.jpg) no-repeat;
+    background-color: #2F2F2F;
     background-size: cover;
     background-attachment: fixed;
     height: 100vh;

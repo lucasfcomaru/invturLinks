@@ -145,7 +145,7 @@ body {
 }
 
 #linksA li a:link {
-    color: inherit;
+    color: #BBBBBB;
     
 }
 
@@ -183,6 +183,7 @@ body {
 
 #linksB li a {
     text-decoration: none;
+    color: #BBBBBB;
 }
 
 #linksB li a:link {
@@ -225,6 +226,7 @@ body {
 
 #linksC li a {
     text-decoration: none;
+    color: #BBBBBB;
 }
 
 #linksC li a:link {

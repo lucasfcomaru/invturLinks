@@ -64,18 +64,31 @@ body {
     position: relative;
 
     margin-bottom: 22px;
+
+    transition: all;
+    transition-duration: 0.3s;
+    transition-timing-function: cubic-bezier(.38,.7,.6,.35);
 }
 
 .categoria:hover {
-    background-color: #8A8A8A;
+    background-color: #616161;
+    cursor: pointer;
+
+    transform: scale(1.03, 1.03);
+    transform-origin: center center;
+
+    transition: all;
+    transition-duration: 0.3s;
+    transition-timing-function: cubic-bezier(.38,.7,.6,.35);
 }
 
 #whatsapp {
-    background-color: #5CDF71;
+    background-color: #33ad48;
+    cursor: pointer;
 }
 
 #whatsapp:hover {
-    background-color: #2CCC46;
+    background-color: #1fc23a;
 }
 
 .categoria img {
@@ -108,6 +121,116 @@ body {
     width: 14px;
 }
 
+/* Links cattegoria A*/
+
+#linksA {
+    margin-bottom: 20px;
+}
+
+#linksA li {
+    color: #BBBBBB;
+    font-size: 12px;
+    font-weight: 400;
+    
+    list-style: none;
+
+    margin-bottom: 4px;
+    padding: 4px 30px;
+
+}
+
+#linksA li a {
+    text-decoration: none;
+}
+
+#linksA li a:hover {
+    font-weight: 600;
+    color: white;
+
+}
+
+#linksA li a:visited {
+    color: #BBBBBB;
+    font-size: 8px;
+    font-weight: 400;
+
+    margin-bottom: 5px;
+}
+
+/* Links cattegoria B*/
+
+#linksB {
+    margin-bottom: 20px;
+}
+
+#linksB li {
+    color: #BBBBBB;
+    font-size: 12px;
+    font-weight: 400;
+    
+    list-style: none;
+
+    margin-bottom: 4px;
+    padding: 4px 30px;
+
+}
+
+#linksB li a {
+    text-decoration: none;
+}
+
+#linksB li a:hover {
+    font-weight: 600;
+    color: white;
+
+}
+
+#linksB li a:visited {
+    color: #BBBBBB;
+    font-size: 8px;
+    font-weight: 400;
+    text-decoration: none;
+
+    margin-bottom: 5px;
+}
+
+/* Links cattegoria C*/
+
+#linksC {
+    margin-bottom: 20px;
+}
+
+#linksC li {
+    color: #BBBBBB;
+    font-size: 12px;
+    font-weight: 400;
+    
+    list-style: none;
+
+    margin-bottom: 4px;
+    padding: 4px 30px;
+
+}
+
+#linksC li a {
+    text-decoration: none;
+}
+
+#linksC li a:hover {
+    font-weight: 600;
+    color: white;
+
+}
+
+#linksC li a:visited {
+    color: #BBBBBB;
+    font-size: 8px;
+    font-weight: 400;
+    text-decoration: none;
+
+    margin-bottom: 5px;
+}
+
 /* Rodapé */
 
 footer {
@@ -135,8 +258,4 @@ footer span a{
 
 footer span a:hover {
     color: #ffffff;
-}
-
-footer span a:visited {
-    color: #a3a3a3;
 }

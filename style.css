@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(assets/background-mobile.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+#container {
+    width: 300px;
+    margin: 0 auto;
+    font-family: "Inter", sans-serif;
+}
+
+/* Cabeçalho */
+#logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 26%;
+    margin-bottom: 16px;
+    
+    /* text-align: center; */
+}
+
+#introducao {
+    color: #5B5B5B;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+#instrucao {
+    color: white;
+    font-weight: 600;
+    margin: 18px 0;
+
+    display: flex;
+    justify-content: center;
+}
+
+/* Menu */
+
+#menu {
+    width: 100%;
+    list-style: none;
+}
+
+.categoria {
+    width: 100%;
+    height: 80px;
+    color: white;
+    font-weight: 700;
+    
+    background-color: #2F2F2F;
+    border-radius: 5px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.8);
+
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    position: relative;
+
+    margin-bottom: 22px;
+}
+
+#whatsapp {
+    background-color: #5CDF71;
+}
+.categoria img {
+    width: 36px;
+    height: 36px;
+    margin: 0 20px;
+    
+}
+
+.seta {
+    position: absolute;
+    right: 20px;
+}
+
+.setaBaixo {
+    width: 26px;
+    height: 26px;
+    background-color: #5CDF71;
+
+    border-radius: 50%;
+
+    /* text-align: center; */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.setaBaixo img {
+    width: 14px;
+}
+
+/* Rodapé */
+
+footer {
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: none;
+
+    font-family: "Inter", sans-serif;
+}
+
+footer span {
+    color: #5B5B5B;
+    display: flex;
+    justify-content: center;
+}
+
+footer span a{
+    color: #5B5B5B;
+    text-decoration: none;
+}
+
+footer span a:hover {
+    color: #ffffff;
+}
+
+footer span a:visited {
+    color: #a3a3a3;
+}

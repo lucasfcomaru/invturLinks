@@ -66,9 +66,18 @@ body {
     margin-bottom: 22px;
 }
 
+.categoria:hover {
+    background-color: #8A8A8A;
+}
+
 #whatsapp {
     background-color: #5CDF71;
 }
+
+#whatsapp:hover {
+    background-color: #2CCC46;
+}
+
 .categoria img {
     width: 36px;
     height: 36px;

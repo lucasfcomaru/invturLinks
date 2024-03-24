@@ -186,7 +186,7 @@ body {
 }
 
 #linksB li a:link {
-    color: inherit;
+    color: #BBBBBB;
     
 }
 
@@ -197,7 +197,7 @@ body {
 }
 
 #linksB li a:visited {
-    color: #BBBBBB;
+    color: white;
     font-size: 8px;
     font-weight: 400;
     text-decoration: none;
@@ -228,7 +228,7 @@ body {
 }
 
 #linksC li a:link {
-    color: inherit;
+    color: #BBBBBB;
     
 }
 
@@ -239,7 +239,7 @@ body {
 }
 
 #linksC li a:visited {
-    color: #BBBBBB;
+    color: white;
     font-size: 8px;
     font-weight: 400;
     text-decoration: none;

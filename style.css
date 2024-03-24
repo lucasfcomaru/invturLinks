@@ -141,7 +141,12 @@ body {
 
 #linksA li a {
     text-decoration: none;
+    
+}
+
+#linksA li a:link {
     color: #BBBBBB;
+    
 }
 
 #linksA li a:hover {

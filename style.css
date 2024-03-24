@@ -185,6 +185,11 @@ body {
     text-decoration: none;
 }
 
+#linksB li a:link {
+    color: inherit;
+    
+}
+
 #linksB li a:hover {
     font-weight: 600;
     color: white;
@@ -220,6 +225,11 @@ body {
 
 #linksC li a {
     text-decoration: none;
+}
+
+#linksC li a:link {
+    color: inherit;
+    
 }
 
 #linksC li a:hover {

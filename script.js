@@ -1,23 +1,41 @@
-// var linksA = document.querySelector(".linksAhidden");
+const categoriaA = document.querySelector("#categoriaA");
 
-// linksA.addEventListener ("click", menuDropDown);
+categoriaA.addEventListener('click', toggleIDa);
 
-// function menuDropDown(){
-//     if(linksA.classList.contains("linksAhidden")){
-//         linksA.classList.replace("linksA");
-//         console.log("click");
-//     } else {
-//         linksA.classList.replace ("linksAhidden");
-//     }
-// }
-var linksCatA = document.getElementById('linksAhidden');
-const categoriaA = document.getElementById('categoriaA');
+function toggleIDa(){
+    const linksCatA = document.querySelector("#linksA");
 
-categoriaA.addEventListener ("click", trocarIDa);
+    if (linksCatA.classList.contains('hide')) {
+        linksCatA.classList.remove('hide');
+    } else {
+        linksCatA.classList.add('hide');
+    }
+}
 
-//funcionou
+const categoriaB = document.querySelector("#categoriaB");
 
-function trocarIDa() {
-    linksCatA.id = 'linksA';
-    console.log('teste');
+categoriaB.addEventListener('click', toggleIDb);
+
+function toggleIDb(){
+    const linksCatB = document.querySelector("#linksB");
+
+    if (linksCatB.classList.contains('hide')) {
+        linksCatB.classList.remove('hide');
+    } else {
+        linksCatB.classList.add('hide');
+    }
+}
+
+const categoriaC = document.querySelector("#categoriaC");
+
+categoriaC.addEventListener('click', toggleIDc);
+
+function toggleIDc(){
+    let linksCatC = document.querySelector("#linksC");
+
+    if (linksCatC.classList.contains('hide')) {
+        linksCatC.classList.remove('hide');
+    } else {
+        linksCatC.classList.add('hide');
+    }
 }

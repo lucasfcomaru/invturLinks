@@ -123,11 +123,12 @@ body {
     width: 14px;
 }
 
-/* Links cattegoria A*/
-
-#linksAhidden {
+/* Esconder links */
+.hide {
     display: none;
 }
+
+/* Links cattegoria A*/
 
 #linksA {
     margin-bottom: 20px;
@@ -171,10 +172,6 @@ body {
 
 /* Links cattegoria B*/
 
-#linksBhidden {
-    display: none;
-}
-
 #linksB {
     margin-bottom: 20px;
 }
@@ -217,10 +214,6 @@ body {
 }
 
 /* Links cattegoria C*/
-
-#linksChidden {
-    display: none;
-}
 
 #linksC {
     margin-bottom: 20px;
